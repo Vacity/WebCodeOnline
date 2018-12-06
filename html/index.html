@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>在线编程</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/codemirror.css">
+	<link rel="stylesheet" type="text/css" href="../css/material.css">
+
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/codemirror.js"></script>
+	<script src="../js/javascript/javascript.js"></script>
+	<script src="../js/css/css.js"></script>
+	<script src="../js/xml/xml.js"></script>
+</head>
+<body>
+<div class="main-container">
+	<div id="html-container" class="container">
+		<div class="title">
+			<fieldset>
+				<legend>Html</legend>
+			</fieldset>
+		</div>
+		<textarea tabindex=-1 id="html-input"></textarea>
+		<!--<pre><code contenteditable="true" id="html-input"></code></pre>-->
+	</div>
+	<div id="css-container" class="container">
+		<div class="title">
+			<fieldset>
+				<legend>Css</legend>
+			</fieldset>
+		</div>
+		<!--<pre><code contenteditable="true" id="css-input"></code></pre>-->
+		<textarea tabindex=-1 id="css-input"></textarea>
+	</div>
+</div>
+<div class="main-container">
+	<div id="js-container" class="container">
+		<div class="title">
+			<fieldset>
+				<legend>Javascript</legend>
+			</fieldset>
+		</div>
+		<!--<pre><code  contenteditable="true" id="js-input"></code></pre>-->
+		<textarea tabindex=-1 id="js-input"></textarea>
+	</div>
+	<div id="result-container" class="container" style="margin-top: -15px;z-index: 99;">
+		<div class="title">
+			<a tabindex=-1 href='#' id="run-btn">运行</a>
+		</div>
+		<iframe id="result-frame" sandbox="allow-forms allow-scripts allow-same-origin allow-modals allow-popups"></iframe>
+	</div>
+</div>
+</body>
+
+</html>
